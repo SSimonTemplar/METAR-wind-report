@@ -81,20 +81,24 @@ Settings → Apps → Special Access → Display over other apps → Termux → 
 ## How to Install Pandas in Termux on Android
 Step-by-Step Instructions:
 
-### Open Termux and update packages:
+### 1. Open Termux and update packages:
 
 ```pkg update && pkg upgrade
+```
 
-### Install Python:
+### 2. Install Python:
 
 ```pkg install python
+```
 
-### Install the Termux user repository (tur-repo), which contains prebuilt pandas:
+### 3. Install the Termux user repository (tur-repo), which contains prebuilt pandas:
 
 ```pkg install tur-repo
+```
 
-### Install pandas directly:
+### 4. Install pandas directly:
 
 ```pkg install python-pandas
+```
 
 This will install pandas along with its dependencies, including numpy
