@@ -83,22 +83,26 @@ Step-by-Step Instructions:
 
 ### 1. Open Termux and update packages:
 
-```pkg update && pkg upgrade
+```sh
+pkg update && pkg upgrade
 ```
 
 ### 2. Install Python:
 
-```pkg install python
+```sh
+pkg install python
 ```
 
 ### 3. Install the Termux user repository (tur-repo), which contains prebuilt pandas:
 
-```pkg install tur-repo
+```sh
+pkg install tur-repo
 ```
 
 ### 4. Install pandas directly:
 
-```pkg install python-pandas
+```sh
+pkg install python-pandas
 ```
 
 This will install pandas along with its dependencies, including numpy
