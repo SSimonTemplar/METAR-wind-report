@@ -106,3 +106,14 @@ pkg install python-pandas
 ```
 
 This will install pandas along with its dependencies, including numpy
+
+## How to Install Matplotlib in Termux
+Easiest Method (as of August 2024):
+
+Termux now provides a prebuilt matplotlib package, making installation simple:
+
+```sh
+pkg install matplotlib
+```
+
+This method is recommended and avoids the common build errors seen with pip
