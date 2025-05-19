@@ -76,3 +76,25 @@ Settings → Apps → Special Access → Display over other apps → Termux → 
 ### Arrows all face sideways
 - Ensure `angles='uv'` is set in `quiver()`
 - Do **not** use `angles='xy'` with datetime x-axis
+
+
+## How to Install Pandas in Termux on Android
+Step-by-Step Instructions:
+
+### Open Termux and update packages:
+
+```pkg update && pkg upgrade
+
+### Install Python:
+
+```pkg install python
+
+### Install the Termux user repository (tur-repo), which contains prebuilt pandas:
+
+```pkg install tur-repo
+
+### Install pandas directly:
+
+```pkg install python-pandas
+
+This will install pandas along with its dependencies, including numpy
